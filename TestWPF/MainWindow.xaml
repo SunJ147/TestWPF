@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800"
         WindowStyle="None"
-        ResizeMode="NoResize">
+        ResizeMode="NoResize"
+        Background="#181735">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="25"/>
@@ -30,7 +31,7 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
-            <TextBlock Text="BunnyCo"
+            <TextBlock Text="ForScience"
                        Foreground="White"
                        Grid.Column="0"
                        VerticalAlignment="Center"
@@ -54,5 +55,12 @@
                        FontFamily="Fonts/#Montserrat-MediumItalic" />
 
         </Grid>
+        
+        <StackPanel Grid.Row="1">
+            <StackPanel Orientation="Horizontal">
+                <Image Width="70" Height="70"
+                       Source="Images/Fertiges Logo.png"/>
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Window>
